@@ -1,0 +1,5 @@
+
+
+pe-client {
+  notify {"hi":}
+}
