@@ -3,7 +3,7 @@ node pe-mike {
     sources => {
       'puppet' => {
         'remote'  => 'git@github.com:czervenyvlk/puppet.git',
-        'basedir' => /etc/puppetlabs/code/environments,
+        'basedir' => '/etc/puppetlabs/code/environments',
         'prefix'  => false,
       },
     },
