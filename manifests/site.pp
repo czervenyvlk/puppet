@@ -1,4 +1,4 @@
-pe-mike {
+node pe-mike {
   class { 'r10k':
     sources => {
       'puppet' => {
