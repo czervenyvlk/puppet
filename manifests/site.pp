@@ -1,5 +1,3 @@
-
-
-pe-client {
+node pe-client {
   notify {"hi":}
 }
