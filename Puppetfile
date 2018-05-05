@@ -1,5 +1,6 @@
 mod 'puppetlabs-stdlib', '4.25.1'
 mod 'puppet-hiera', '3.3.2'
+mod 'puppetlabs-puppetserver_gem', '1.0.0'
 mod 'puppetlabs-inifile', '2.2.1'
 
 mod 'puppet-r10k', '6.5.1'
