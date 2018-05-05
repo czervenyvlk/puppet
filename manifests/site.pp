@@ -8,4 +8,13 @@ node pe-mike {
       },
     },
   }
+  class { 'hiera':
+    hierarchy      => [
+      'nodes/%{::hostname}',
+      'common',
+    ],
+    logger         => 'console',
+    merge_behavior => 'deeper'
+  }
 }
+
