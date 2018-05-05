@@ -14,7 +14,8 @@ node pe-mike {
       'common',
     ],
     logger         => 'console',
-    merge_behavior => 'deeper'
+    merge_behavior => 'deeper',
+    datadir        => "/etc/puppetlabs/code/hieradata/%{::environment}",
   }
 }
 
